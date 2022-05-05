@@ -1,0 +1,440 @@
+654  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper –
+                Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.task15.Task15ApplicationTests], using SpringBootContextLoader
+707  [main] INFO  o.s.t.c.s.AbstractContextLoader –
+                Could not detect default resource locations for test class [com.example.task15.Task15ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+709  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils –
+                Could not detect default configuration classes for test class [com.example.task15.Task15ApplicationTests]: Task15ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+1091 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper –
+                Found @SpringBootConfiguration com.example.task15.Task15Application for test class com.example.task15.Task15ApplicationTests
+1415 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper –
+                Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+1485 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper –
+                Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3a393455, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@13518f37, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7cbc3762, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3a6f2de3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@49872d67, org.springframework.test.context.support.DirtiesContextTestExecutionListener@56303b57, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4b2a01d4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8692d67, org.springframework.test.context.event.EventPublishingTestExecutionListener@78f5c518, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2f48b3d2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@34f7234e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@753432a2, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@23bff419, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4983159f, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@44e3a2b2]
+2499 [main] INFO  c.e.task15.Task15ApplicationTests –
+                Starting Task15ApplicationTests using Java 17.0.1 on GrigoriyGol with PID 15772 (started by grish in C:\task15)
+2502 [main] INFO  c.e.task15.Task15ApplicationTests –
+                No active profile set, falling back to 1 default profile: "default"
+5031 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+5226 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Finished Spring Data repository scanning in 166 ms. Found 2 JPA repository interfaces.
+7657 [main] INFO  o.h.jpa.internal.util.LogHelper –
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+7935 [main] INFO  org.hibernate.Version –
+                HHH000412: Hibernate ORM core version 5.6.7.Final
+8708 [main] INFO  o.h.annotations.common.Version –
+                HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+9263 [main] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Starting...
+10059 [main] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Start completed.
+10178 [main] INFO  org.hibernate.dialect.Dialect –
+                HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+12435 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –
+                HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12461 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –
+                Initialized JPA EntityManagerFactory for persistence unit 'default'
+13930 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –
+                spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14979 [main] INFO  o.s.s.w.DefaultSecurityFilterChain –
+                Will not secure any request
+17287 [main] INFO  c.e.task15.Task15ApplicationTests –
+                Started Task15ApplicationTests in 15.67 seconds (JVM running for 28.011)
+17966 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+17969 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Shutdown initiated...
+17978 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Shutdown completed.
+1870 [restartedMain] INFO  c.example.task15.Task15Application –
+                Starting Task15Application using Java 17.0.1 on GrigoriyGol with PID 5688 (C:\task15\target\classes started by grish in C:\task15)
+1875 [restartedMain] INFO  c.example.task15.Task15Application –
+                No active profile set, falling back to 1 default profile: "default"
+1990 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –
+                Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1991 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –
+                For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+3519 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3671 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Finished Spring Data repository scanning in 135 ms. Found 2 JPA repository interfaces.
+5328 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –
+                Tomcat initialized with port(s): 8080 (http)
+5364 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –
+                Initializing ProtocolHandler ["http-nio-8080"]
+5366 [restartedMain] INFO  o.a.catalina.core.StandardService –
+                Starting service [Tomcat]
+5367 [restartedMain] INFO  o.a.catalina.core.StandardEngine –
+                Starting Servlet engine: [Apache Tomcat/9.0.60]
+5566 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –
+                Initializing Spring embedded WebApplicationContext
+5566 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –
+                Root WebApplicationContext: initialization completed in 3573 ms
+6027 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+6098 [restartedMain] INFO  org.hibernate.Version –
+                HHH000412: Hibernate ORM core version 5.6.7.Final
+6335 [restartedMain] INFO  o.h.annotations.common.Version –
+                HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+6503 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Starting...
+6779 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Start completed.
+6811 [restartedMain] INFO  org.hibernate.dialect.Dialect –
+                HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+8327 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –
+                HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+8352 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –
+                Initialized JPA EntityManagerFactory for persistence unit 'default'
+9484 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –
+                spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10368 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain –
+                Will not secure any request
+11558 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –
+                LiveReload server is running on port 35729
+11666 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –
+                Starting ProtocolHandler ["http-nio-8080"]
+11709 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –
+                Tomcat started on port(s): 8080 (http) with context path ''
+11740 [restartedMain] INFO  c.example.task15.Task15Application –
+                Started Task15Application in 10.619 seconds (JVM running for 13.097)
+46969 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+46969 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet –
+                Initializing Servlet 'dispatcherServlet'
+46972 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet –
+                Completed initialization in 2 ms
+47148 [http-nio-8080-exec-2] WARN  o.a.c.util.SessionIdGeneratorBase –
+                Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [102] milliseconds.
+80917 [http-nio-8080-exec-4] INFO  com.example.task15.services.Service –
+                game author created
+80921 [http-nio-8080-exec-4] INFO  com.example.task15.aspect.Aspect –
+                addGameAuthor executed in 146ms
+86199 [http-nio-8080-exec-4] INFO  c.e.t.services.EmailSenderService –
+                Mail message send succesfully
+95184 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+95193 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Shutdown initiated...
+95210 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Shutdown completed.
+1526 [restartedMain] INFO  c.example.task15.Task15Application –
+                Starting Task15Application using Java 17.0.1 on GrigoriyGol with PID 15744 (C:\task15\target\classes started by grish in C:\task15)
+1532 [restartedMain] INFO  c.example.task15.Task15Application –
+                No active profile set, falling back to 1 default profile: "default"
+1643 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –
+                Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1643 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –
+                For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2981 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3066 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
+4324 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –
+                Tomcat initialized with port(s): 8080 (http)
+4337 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –
+                Initializing ProtocolHandler ["http-nio-8080"]
+4338 [restartedMain] INFO  o.a.catalina.core.StandardService –
+                Starting service [Tomcat]
+4338 [restartedMain] INFO  o.a.catalina.core.StandardEngine –
+                Starting Servlet engine: [Apache Tomcat/9.0.60]
+4478 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –
+                Initializing Spring embedded WebApplicationContext
+4478 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –
+                Root WebApplicationContext: initialization completed in 2834 ms
+4904 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+5023 [restartedMain] INFO  org.hibernate.Version –
+                HHH000412: Hibernate ORM core version 5.6.7.Final
+5388 [restartedMain] INFO  o.h.annotations.common.Version –
+                HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+5550 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Starting...
+5933 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Start completed.
+5968 [restartedMain] INFO  org.hibernate.dialect.Dialect –
+                HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+7226 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –
+                HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+7248 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –
+                Initialized JPA EntityManagerFactory for persistence unit 'default'
+8214 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –
+                spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+8722 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain –
+                Will not secure any request
+9547 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –
+                LiveReload server is running on port 35729
+9650 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –
+                Starting ProtocolHandler ["http-nio-8080"]
+9693 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –
+                Tomcat started on port(s): 8080 (http) with context path ''
+9722 [restartedMain] INFO  c.example.task15.Task15Application –
+                Started Task15Application in 8.978 seconds (JVM running for 10.946)
+9804 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+9804 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –
+                Initializing Servlet 'dispatcherServlet'
+9806 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –
+                Completed initialization in 2 ms
+9941 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler –
+                Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: could not initialize proxy [com.example.task15.Entity.GameAuthor#50] - no Session
+	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:176)
+	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:322)
+	at org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor.intercept(ByteBuddyInterceptor.java:45)
+	at org.hibernate.proxy.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:95)
+	at com.example.task15.Entity.GameAuthor$HibernateProxy$5aXAd1um.toString(Unknown Source)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at com.example.task15.Entity.Game.toString(Game.java:11)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:407)
+	at com.example.task15.services.SchedulerServiceImpl.saveEntities(SchedulerServiceImpl.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+19961 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler –
+                Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: could not initialize proxy [com.example.task15.Entity.GameAuthor#50] - no Session
+	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:176)
+	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:322)
+	at org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor.intercept(ByteBuddyInterceptor.java:45)
+	at org.hibernate.proxy.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:95)
+	at com.example.task15.Entity.GameAuthor$HibernateProxy$5aXAd1um.toString(Unknown Source)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at com.example.task15.Entity.Game.toString(Game.java:11)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:407)
+	at com.example.task15.services.SchedulerServiceImpl.saveEntities(SchedulerServiceImpl.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+29981 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler –
+                Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: could not initialize proxy [com.example.task15.Entity.GameAuthor#50] - no Session
+	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:176)
+	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:322)
+	at org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor.intercept(ByteBuddyInterceptor.java:45)
+	at org.hibernate.proxy.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:95)
+	at com.example.task15.Entity.GameAuthor$HibernateProxy$5aXAd1um.toString(Unknown Source)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at com.example.task15.Entity.Game.toString(Game.java:11)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:407)
+	at com.example.task15.services.SchedulerServiceImpl.saveEntities(SchedulerServiceImpl.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+39994 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler –
+                Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: could not initialize proxy [com.example.task15.Entity.GameAuthor#50] - no Session
+	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:176)
+	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:322)
+	at org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor.intercept(ByteBuddyInterceptor.java:45)
+	at org.hibernate.proxy.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:95)
+	at com.example.task15.Entity.GameAuthor$HibernateProxy$5aXAd1um.toString(Unknown Source)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at com.example.task15.Entity.Game.toString(Game.java:11)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:407)
+	at com.example.task15.services.SchedulerServiceImpl.saveEntities(SchedulerServiceImpl.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+43637 [http-nio-8080-exec-7] INFO  com.example.task15.services.Service –
+                game author created
+43639 [http-nio-8080-exec-7] INFO  com.example.task15.aspect.Aspect –
+                addGameAuthor executed in 94ms
+48285 [http-nio-8080-exec-7] INFO  c.e.t.services.EmailSenderService –
+                Mail message send succesfully
+50018 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler –
+                Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: could not initialize proxy [com.example.task15.Entity.GameAuthor#50] - no Session
+	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:176)
+	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:322)
+	at org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor.intercept(ByteBuddyInterceptor.java:45)
+	at org.hibernate.proxy.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:95)
+	at com.example.task15.Entity.GameAuthor$HibernateProxy$5aXAd1um.toString(Unknown Source)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at com.example.task15.Entity.Game.toString(Game.java:11)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:407)
+	at com.example.task15.services.SchedulerServiceImpl.saveEntities(SchedulerServiceImpl.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+60032 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler –
+                Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: could not initialize proxy [com.example.task15.Entity.GameAuthor#50] - no Session
+	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:176)
+	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:322)
+	at org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor.intercept(ByteBuddyInterceptor.java:45)
+	at org.hibernate.proxy.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:95)
+	at com.example.task15.Entity.GameAuthor$HibernateProxy$5aXAd1um.toString(Unknown Source)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at com.example.task15.Entity.Game.toString(Game.java:11)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:407)
+	at com.example.task15.services.SchedulerServiceImpl.saveEntities(SchedulerServiceImpl.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+70059 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler –
+                Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: could not initialize proxy [com.example.task15.Entity.GameAuthor#50] - no Session
+	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:176)
+	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:322)
+	at org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor.intercept(ByteBuddyInterceptor.java:45)
+	at org.hibernate.proxy.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:95)
+	at com.example.task15.Entity.GameAuthor$HibernateProxy$5aXAd1um.toString(Unknown Source)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at com.example.task15.Entity.Game.toString(Game.java:11)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:407)
+	at com.example.task15.services.SchedulerServiceImpl.saveEntities(SchedulerServiceImpl.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+80082 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler –
+                Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: could not initialize proxy [com.example.task15.Entity.GameAuthor#50] - no Session
+	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:176)
+	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:322)
+	at org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor.intercept(ByteBuddyInterceptor.java:45)
+	at org.hibernate.proxy.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:95)
+	at com.example.task15.Entity.GameAuthor$HibernateProxy$5aXAd1um.toString(Unknown Source)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at com.example.task15.Entity.Game.toString(Game.java:11)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:407)
+	at com.example.task15.services.SchedulerServiceImpl.saveEntities(SchedulerServiceImpl.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+90098 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler –
+                Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: could not initialize proxy [com.example.task15.Entity.GameAuthor#50] - no Session
+	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:176)
+	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:322)
+	at org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor.intercept(ByteBuddyInterceptor.java:45)
+	at org.hibernate.proxy.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:95)
+	at com.example.task15.Entity.GameAuthor$HibernateProxy$5aXAd1um.toString(Unknown Source)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at com.example.task15.Entity.Game.toString(Game.java:11)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:407)
+	at com.example.task15.services.SchedulerServiceImpl.saveEntities(SchedulerServiceImpl.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+100117 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler –
+                Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: could not initialize proxy [com.example.task15.Entity.GameAuthor#50] - no Session
+	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:176)
+	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:322)
+	at org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor.intercept(ByteBuddyInterceptor.java:45)
+	at org.hibernate.proxy.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:95)
+	at com.example.task15.Entity.GameAuthor$HibernateProxy$5aXAd1um.toString(Unknown Source)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at com.example.task15.Entity.Game.toString(Game.java:11)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:407)
+	at com.example.task15.services.SchedulerServiceImpl.saveEntities(SchedulerServiceImpl.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+106468 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+106474 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Shutdown initiated...
+106493 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Shutdown completed.
